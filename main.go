@@ -14,7 +14,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Hello from aws EKS pipeline !!!!!!!"}
+		res := &response{Message: "Hello from aws EKS pipeline created by Mshah9 and Tchow2 !!!!!!!"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
